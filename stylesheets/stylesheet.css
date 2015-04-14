@@ -41,6 +41,18 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+th {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #dedede;
+}
+
+
+tr {
+	background-color: #ededed;
+
+}
 table {
 	border-spacing: 0;
 	border-collapse: collapse;
@@ -90,7 +102,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 820px;
   margin: 0 auto;
 }
 
