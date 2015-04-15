@@ -1,0 +1,7 @@
+Issue log tab
+	resolved/open
+	note field
+	
+	
+Documentation = classroom guide
+
