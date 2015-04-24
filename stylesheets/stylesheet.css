@@ -191,8 +191,16 @@ a.button span {
   background: transparent url(../images/gallery.png) 12px 50% no-repeat;
 }
 
+#gallery {
+  margin-right: 0;
+}
+
 #documentation span {
   background: transparent url(../images/documentation.png) 12px 50% no-repeat;
+}
+
+#documentation {
+  margin-right: 0;
 }
 
 #issues span {
