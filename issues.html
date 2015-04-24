@@ -20,10 +20,73 @@
       <div class="inner">
 
         <header>
-          <h1>Issues and Fixes</h1>
-          <h2></h2>
+          <h1> <a href="http://naoprojectuga.github.io/NaoWebsite/index.html">University of Georgia</a></h1>
+          <h2>Research for NAO Robots in Education</h2>
         </header>
 		
+		
+        <h1>Issues and Fixes</h1>
+		<br>
+        <p>The following is a log of issues that we came across while working with now, and how to either fix them or avoid them (if possible). If you know of any other issues that
+		you think should belong on this list, feel free to send an email to: NaoProjectUGA@gmail.com.</p>
+		<br>
+		<br>
+		
+		
+		<table style="width:100%">
+		<tr>
+			<th>Issue Name</th>
+			<th>Description</th>
+			<th>Solution</th>  
+		</tr>
+		<tr>
+			<td width="20%">NAO Audio Silent</td>
+			<td width="50%">If you are sharing your NAO robot like we were, then it is possible someone will at some point turn off his audio. In this case, the normal speech interactions with NAO
+			will seem unchanged, but any time you send a Choregraphe file to him that instructs him to speak, he will remain silent. </td>
+			<td width="30%">As it turns out, you don't fix this on NAO himself, but rather can adjust it through Choregraphe. There is a setting in the 
+			very top right that is somewhat unnoticeable that has a slider to adjust NAO's volume.  </td>
+		</tr>
+		
+		<tr>
+			<td width="20%">Tai Chi Issue</td>
+			<td width="50%">One of the really impressive projects you can run on NAO is to have him dance Tai Chi. This makes for really exciting demos in the classroom, but
+			it has a problem where NAO will fall over a good percentage of the time. Part of this is due to the fact that all NAO robots aren't 100% identical, and it could
+			be that the center of balance is just slightly off than the one that the Tai Chi was originally programmed with. </td>
+			<td width="30%">A good way to minimize this issue is to have NAO dance on a solid surface. I've found table tops or tile floors work best. If you have him dance on
+			something soft like carpet, I've noticed NAO has a much higher chance to fall over during the Tai Chi. </td>
+		</tr>
+		
+		<tr>
+			<td width="20%">Connection Issue</td>
+			<td width="50%">I developed for NAO on a separate, private network than the one that UGA provides. Therefore any time I wanted to research something online, I had to switch networks.
+			However I noticed a very glaring bug in Choregraphe. If you are connected to NAO in Choregraphe, and then at whatever point switch networks without clicking "DISCONNECT", switch back,
+			and attempt to reconnect to NAO, he will refuse your connection. </td>
+			<td width="30%"> If I had to guess, I would say this is because there is no periodic handshake between your computer and NAO to verify you are both still connected. Therefore, from
+			NAO's end, he still believes you are connected and he refuses any new connections (aka you after switching back). So, note that if you are going to frequently switch networks while connected
+			to NAO, be sure to disconnect from him BEFORE leaving your current network.</td>
+		</tr>
+		
+		<tr>
+			<td width="20%">Demo Timing Issues</td>
+			<td width="50%">Although NAO has 8gb of flash memory, his OS is not very well optimized. There were often times where he would take a good 5-8 minutes to start up before a demo. 
+			This means that if you are going to be doing any kind of demonstration of NAO, you need to make sure and be setting up about 10 minutes in advance (to be on the safe side).</td>
+			<td width="30%">As stated, if you need NAO functioning at an exact time, be sure to set him up about 10 minutes beforehand so he's ready for commands as soon as you need him to be. </td>
+		</tr>
+		
+		<tr>
+			<td width="20%">Speech Commands</td>
+			<td width="50%">For what it is, the speech commands package on NAO is pretty impressive. That being said, I feel like a lot of people will assume that it's meant to be on par with Cortana
+			and Siri and it's far from on that level. So during demos, you may have to explain this and speak very loud and clear directly to NAO so he has the best chance to do what you need him to.</td>
+			<td width="30%">The best solution anyone can do right now is just wait for updates to the package. I'd suggest looking at software updates for NAO every 3 months or so.</td>
+		</tr>
+		</table>
+		
+		
+		
+		
+		
+		
+			
    
       </div>
     </div>
